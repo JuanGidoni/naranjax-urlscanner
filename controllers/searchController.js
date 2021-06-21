@@ -4,7 +4,7 @@ const searchController = async (domain) => {
   method: "GET",
   headers: {
    'Content-Type': 'application/json',
-   'API-Key': ''
+   'API-Key': process.env.API_KEY
   }
  })
  const jsonResponse = await response.json()

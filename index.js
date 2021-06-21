@@ -4,7 +4,11 @@ const search = require('./routes/search')
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello!')
+  try {
+    res.status(200).send('Hello! This api is using NodeJS and this endpoint is useless... please read docs :D')
+  } catch (error) {
+    res.status(4040).send(error)
+  }
 })
 
 app.use("/search/", search);
