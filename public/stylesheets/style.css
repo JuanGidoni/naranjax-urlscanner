@@ -1,0 +1,113 @@
+body {
+  padding: 2em;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.urlScanForm {
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.urlScanForm input {
+  border: none;
+  background: #3a3a3a;
+  color: #ff9100;
+  min-width: 200px;
+  width:100%;
+  padding: 1em;
+}
+
+.urlScanForm input:focus {
+  border: none;
+  box-shadow: #ff9100;
+  outline: none;
+}
+
+.urlScanForm button {
+  border: none;
+  background: #535353;
+  color: #ff9100;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.json-code {
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3em;
+  background: #3a3a3a;
+  color: #ff9100;
+  font-size: 9px;
+  border-radius: 8px;
+}
+
+.json-code pre {
+  white-space:pre-line;
+  width: 100%;
+  max-width: 100%;
+  display:flex;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.json-code > pre > code {
+  width: 100%;
+  max-width: 100%;
+  display:flex;
+  padding: 0.3em;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+#scanurl {
+  width:100%;
+  border-radius: 8px;
+}
+.example code {
+  background: #3a3a3a;
+  color: #ff9100;
+  padding:3px;
+}
+.footer {
+  text-align: center;
+  font-size:10px;
+  color:#3a3a3a;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+}
+@media all and (min-width: 575px){
+  .urlScanForm {
+    width: 35vw;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  }
+  .json-code {
+    font-size: 13px;
+  }
+}

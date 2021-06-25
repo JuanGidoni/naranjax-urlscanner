@@ -1,15 +1,14 @@
 {
-  "name": "naranjax-challenge",
+  "name": "naranjax-urlscanner",
   "version": "1.0.0",
   "description": "Job Interview Challenge",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanGidoni/NaranjaX-bucket-S3.git"
+    "url": "git+https://github.com/JuanGidoni/naranjax-urlscanner"
   },
   "keywords": [
     "naranjax",
@@ -21,14 +20,19 @@
   "author": "Juan Ignacio Gidoni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JuanGidoni/NaranjaX-bucket-S3/issues"
+    "url": "https://github.com/JuanGidoni/naranjax-urlscanner/issues"
   },
-  "homepage": "https://github.com/JuanGidoni/NaranjaX-bucket-S3#readme",
+  "homepage": "https://github.com/JuanGidoni/naranjax-urlscanner#readme",
   "dependencies": {
-    "aws-sdk": "^2.931.0",
-    "cors": "^2.8.5",
+    "aws-sdk": "^2.935.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.1",
+    "uuid": "^8.3.2"
   }
 }

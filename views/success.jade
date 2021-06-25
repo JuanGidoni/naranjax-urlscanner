@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  p Success, #{message}
+  p Uploaded to: #{fileUploaded.value}
+  div(class='json-code')
+   pre
+    code
+     | #{data}
