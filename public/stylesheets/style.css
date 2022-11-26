@@ -4,12 +4,12 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
 
 .container {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
@@ -19,7 +19,7 @@ a {
 .urlScanForm {
   width: 100%;
   height: auto;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ a {
   background: #3a3a3a;
   color: #ff9100;
   min-width: 200px;
-  width:100%;
+  width: 100%;
   padding: 1em;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 .json-code {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   max-width: 100%;
   justify-content: center;
@@ -64,10 +64,10 @@ a {
 }
 
 .json-code pre {
-  white-space:pre-line;
+  white-space: pre-line;
   width: 100%;
   max-width: 100%;
-  display:flex;
+  display: flex;
   overflow: auto;
   flex-wrap: wrap;
 }
@@ -75,33 +75,33 @@ a {
 .json-code > pre > code {
   width: 100%;
   max-width: 100%;
-  display:flex;
+  display: flex;
   padding: 0.3em;
   flex-wrap: wrap;
   border-radius: 8px;
 }
 #scanurl {
-  width:100%;
+  width: 100%;
   border-radius: 8px;
 }
 .example code {
   background: #3a3a3a;
   color: #ff9100;
-  padding:3px;
+  padding: 3px;
 }
 .footer {
   text-align: center;
-  font-size:10px;
-  color:#3a3a3a;
+  font-size: 10px;
+  color: #3a3a3a;
   position: fixed;
   bottom: 1em;
   left: 1em;
 }
-@media all and (min-width: 575px){
+@media all and (min-width: 575px) {
   .urlScanForm {
     width: 35vw;
     height: auto;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
