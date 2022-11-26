@@ -5,10 +5,10 @@ block content
   p Welcome to #{title}
   div(class="container")
   p Enter your URL to scan
-  form(action='/scan', method='post', class="urlScanForm")
+  form(action='/scan' method='post' class="urlScanForm")
     div(data-role='fieldcontain')
-      input(id='scanurl',type='text',value='',placeholder='Insert the url without https:// or www.', name='scanUrl')
-    button(type='submit',value='Scan',data-transition='fade', data-theme='c') Scan
+      input(id='scanurl' type='text' value='' placeholder='Insert the url without https:// or www.' name='scanUrl')
+    button(type='submit' value='Scan' data-transition='fade' data-theme='c') Scan
   p(class='example') Example: 
     code naranjax.com
   footer(class="footer")
